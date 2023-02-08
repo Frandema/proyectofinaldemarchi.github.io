@@ -1,0 +1,66 @@
+/* logo*/
+.menu {
+    background-color:white;
+    max-width: 100%;
+    height: 100px;
+}
+
+.listado {
+    background-color:grey;
+    max-width: 100%;
+    height: 220px;
+    position:relative;
+    display: none;
+    border-radius: 3%;
+}
+
+.menu:hover .listado {
+    display: block;
+
+
+}
+
+.bi-list {
+    font-size: 15px;
+    display: none;
+    justify-content: space-between;
+    color:rgb(255, 255, 255);
+}
+
+.listado a {
+
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    gap: 0px;
+    font-size: 20px;
+
+    &:hover {
+        color:rgb(255, 255, 255);
+    }
+}
+.nav a {
+    display: none;
+}
+
+.portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(gray, rgb(204, 204, 204));
+    max-width: 100%;
+    height: 100px;
+
+    & img{
+        width: 45px;
+        height: 40px;
+        margin-left: 10px;
+    }
+    & h1 {
+        font-size: 20px;
+        color:black;
+        padding: 10px;
+    }
+}
